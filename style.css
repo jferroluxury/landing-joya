@@ -1,0 +1,16 @@
+body {
+  background-color: #000;
+  color: gold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.boton {
+  background-color: gold;
+  color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
