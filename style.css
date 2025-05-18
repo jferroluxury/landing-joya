@@ -1,16 +1,44 @@
+
 body {
-  background-color: #000;
-  color: gold;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 100px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #FFD700;
+    text-align: center;
+}
+
+header {
+    padding: 50px 0;
 }
 
 .boton {
-  background-color: gold;
-  color: black;
-  padding: 15px 30px;
-  text-decoration: none;
-  border-radius: 10px;
-  font-weight: bold;
+    background-color: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.producto {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 10px;
 }
